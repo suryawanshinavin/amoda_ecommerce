@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
       $_SESSION['logged_in'] = true;
 
       // Redirect to a secure page or dashboard
-      header("Location: dashboard.php");
+      header("Location: pages/dashboard.php");
       exit();
     } else { ?>
       <div class="alert alert-primary" role="alert">

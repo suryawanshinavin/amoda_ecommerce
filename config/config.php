@@ -1,4 +1,8 @@
 <?php
+
+ini_set('display_errors', 0);
+error_reporting(E_ALL);
+
 require __DIR__ . '/../vendor/autoload.php'; // Adjust the path to autoload.php based on your folder structure
 
 use Dotenv\Dotenv;
@@ -12,6 +16,8 @@ $dbHost = $_ENV['DB_HOST'];
 $dbName = $_ENV['DB_DATABASE'];
 $dbUser = $_ENV['DB_USERNAME'];
 $dbPass = $_ENV['DB_PASSWORD'];
+
+$baseUrl = $_ENV['http://amoda_admin.test/'];
 
 // Database connection using environment variables
 $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4";
