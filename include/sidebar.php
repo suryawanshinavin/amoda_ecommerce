@@ -88,44 +88,8 @@
                 </ul>
             </div>
         </li>
-        <!-- <li class="nav-item menu-items">
-            <a class="nav-link" data-bs-toggle="collapse" href="" aria-expanded="false" aria-controls="auth">
-                <span class="menu-icon">
-                    <i class="mdi mdi-list-box"></i>
-                </span>
-                <span class="menu-title">Products Pages</span>
-                <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-                <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"><a class="nav-link" href="../pages/addproduct.php">
-                            <a class="nav-link" href="../addproduct.php"">
-                        <span>
-                            <i class=" mdi mdi-note-plus"></i>
-                                </span>
-                                <span class="menu-title">Add Produst</span>
-                            </a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="../pages/products.php">
-                            <a class="nav-link" href="../products.php">
-                                <span>
-                                    <i class="mdi mdi-note-plus"></i>
-                                </span>
-                                <span class="menu-title">Product List</span>
-                            </a>
-                    </li>
-            </div>
-        </li> -->
-        <!-- <li class="nav-item menu-items">
-            <a class="nav-link" href="../addproduct.php">
-                <span class="menu-icon">
-                    <i class="mdi mdi-note-plus"></i>
-                </span>
-                <span class="menu-title">Add Products</span>
-            </a>
-        </li> -->
         <hr class="my-0">
-        <li class="nav-item menu-items">
+        <li class="nav-item menu-items" hidden>
             <a class="nav-link" data-bs-toggle="collapse" href="../pages/#ui-basic" aria-expanded="false"
                 aria-controls="ui-basic">
                 <span class="menu-icon">
@@ -144,7 +108,7 @@
                 </ul>
             </div>
         </li>
-        <li class="nav-item menu-items">
+        <li class="nav-item menu-items" hidden>
             <a class="nav-link" href="../pages/forms/basic_elements.html">
                 <span class="menu-icon">
                     <i class="mdi mdi-playlist-play"></i>
@@ -153,7 +117,7 @@
                 <i class="menu-arrow"></i>
             </a>
         </li>
-        <li class="nav-item menu-items">
+        <li class="nav-item menu-items" hidden>
             <a class="nav-link" href="../pages/tables/basic-table.html">
                 <span class="menu-icon">
                     <i class="mdi mdi-table-large"></i>
@@ -162,7 +126,7 @@
                 <i class="menu-arrow"></i>
             </a>
         </li>
-        <li class="nav-item menu-items">
+        <li class="nav-item menu-items" hidden>
             <a class="nav-link" href="../pages/charts/chartjs.html">
                 <span class="menu-icon">
                     <i class="mdi mdi-chart-bar"></i>
@@ -171,7 +135,7 @@
                 <i class="menu-arrow"></i>
             </a>
         </li>
-        <li class="nav-item menu-items">
+        <li class="nav-item menu-items" hidden>
             <a class="nav-link" href="../pages/icons/font-awesome.html">
                 <span class="menu-icon">
                     <i class="mdi mdi-contacts"></i>
@@ -180,7 +144,7 @@
                 <i class="menu-arrow"></i>
             </a>
         </li>
-        <li class="nav-item menu-items">
+        <li class="nav-item menu-items" hidden>
             <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
                 <span class="menu-icon">
                     <i class="mdi mdi-security"></i>

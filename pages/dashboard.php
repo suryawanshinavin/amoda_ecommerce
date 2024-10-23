@@ -1,4 +1,15 @@
-<?php include '../include/header.php' ?>
+<?php 
+
+include '../config/config.php';
+
+
+
+
+
+
+
+
+include '../include/header.php' ?>
 
 <body>
     <div class="container-scroller">
